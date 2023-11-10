@@ -102,7 +102,38 @@ INSERT INTO `sklepy` (`id`, `nazwa`, `wlasciciel`, `adres`, `id_dzielnice`, `lb_
 (7, 'ID0B728', 'Natalia Matuszyńska', 'Grunwaldzka 99-101 lok. 3A', 30, 6),
 (8, 'ID0B415', 'Dominik Kowal', 'Jana Pawła II 23C', 34, 5),
 (9, 'ID08972', 'Dominika Kowalewska', 'Hallera 132 lok. 253', 29, 3),
-(10, 'ID06754', 'Bartosz Żukowski', 'Rzeczypospolitej 33', 34, 5);
+(10, 'ID06754', 'Bartosz Żukowski', 'Rzeczypospolitej 33', 34, 5),
+(11, 'ID04561', 'Roman Matuszyński', 'Beniowskiego 11/U1', 19, 3),
+(12, 'ID03758', 'Kacper Mościcki', 'Bergiela 2B/10', 27, 4),
+(13, 'ID04928', 'Mateusz W. Przełóż', 'Rozrażewskiego', 4, 4),
+(14, 'ID04664', 'Łukasz Kruch', 'Chrobrego 60', 29, 5),
+(15, 'ID05868', 'Damian Rokosowski', 'Bora-Komorowskiego 38 lok. 1 i 39', 19, 3),
+(16, 'ID04352', 'Aleksandra Wokólska', 'Bulońska 18', 17, 4),
+(17, 'ID00406', 'Michał Bartoszewski', 'Burzyńskiego 9', 34, 2),
+(18, 'ID05942', 'Janusz Adamski', 'Cedrowa 27 lok. U2 i U3', 27, 3),
+(19, 'ID04979', 'Nikodem Warszawski', 'Chałubińskiego 31', 4, 2),
+(20, 'ID05446', 'Błażej Zalewski', 'Chmielna 72 lok. 6', 26, 6),
+(21, 'ID03773', 'Rafał Jakubowski', 'Chmielna 95/1', 26, 5),
+(22, 'ID04447', 'Anatol Błaszczyk', 'Chwaszczyńska 7', 10, 3),
+(23, 'ID04816', 'Emil Szewczyk', 'Cieszyńskiego 1B', 4, 3),
+(24, 'ID03996', 'Edyta Kowalczyk', 'Cytrowa 2A/1', 9, 2),
+(25, 'ID08456', 'Patrycja Sikora', 'Długa 59/61', 26, 6),
+(26, 'ID04122', 'Blanka Dąbrowska', 'Długie Ogrody 11', 26, 5),
+(27, 'ID04214', 'Artur Nowak', 'Dmowskiego 12 lok. 10 i 11', 30, 4),
+(28, 'ID04815', 'Maksymilian Sawicki', 'Do Studzienki 11 lok. 1', 30, 3),
+(29, 'ID01558', 'Maurycy Bąk', 'Dragana 15F', 4, 2),
+(30, 'ID05443', 'Piotr Mazur', 'Droszyńskiego 32A', 19, 3),
+(31, 'ID01388', 'Ryszard Kaczmarczyk', 'Dworska 27', 3, 4),
+(32, 'ID05400', 'Dawid Wysocki', 'Elbląska 65', 26, 5),
+(33, 'ID03552', 'Heronim Zieliński', 'Focha 8 lok. U2', 1, 3),
+(34, 'ID04906', 'Felicja Baran', 'Gospody 19 A/B', 35, 3),
+(35, 'ID05979', 'Julia Jakubiak', 'Grunwaldzka 156', 30, 4),
+(36, 'ID05615', 'Nikola Krajewska', 'Grunwaldzka 415', 12, 5),
+(37, 'ID03565', 'Honorata Makowska', 'Grunwaldzka 42', 30, 4),
+(38, 'ID08548', 'Agnieszka Kaczmarczyk', 'Grunwaldzka 489', 12, 3),
+(39, 'ID03840', 'Krystian Cieślak', 'Grunwaldzka 74', 30, 3),
+(40, 'ID05203', 'Jan Kucharski', 'Grunwaldzka 75', 30, 2);
+
 
 --
 -- Indeksy dla zrzutów tabel
@@ -135,7 +166,7 @@ ALTER TABLE `dzielnice`
 -- AUTO_INCREMENT dla tabeli `sklepy`
 --
 ALTER TABLE `sklepy`
-  MODIFY `id` int(16) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(16) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- Ograniczenia dla zrzutów tabel
